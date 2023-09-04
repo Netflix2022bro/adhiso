@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6547869034:AAEjHA9N7XIg5GeECVP_XTq3RJ_8VYbZicI")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6175869878:AAE9rjaVfCJX8AqTHl-YmmjpqdpGfxGKIIA")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "3477714"))
@@ -18,16 +18,16 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001971965786"))
 OWNER_ID = int(os.environ.get("OWNER_ID", "5672110846"))
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "postgres://shikari:CrY80HWdrLaG8qyvcuHXHkOPO0a6DmUQ@dpg-cjce4bfdb61s73e90g90-a.oregon-postgres.render.com/shikari")
+DB_URI = os.environ.get("DATABASE_URL", "postgres://shikari:piX83BSERGtqizW9slx1OYsVGLNmAFVS@dpg-cjr00kojbais739q50lg-a.singapore-postgres.render.com/shikari_udum")
 
 #force sub channel id, if you want enable force sub
 FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-SESSION_STRING = os.environ.get("SESSION_STRING", "AQA1ENIAXwMydnJJQys8397ZK0RSneLanxnbQ3ksWT-xSL6OvNH1iwKN4A5j3gsNrFF-HuN_udsV3yfhCwP9emq9qtMJOkN5Q2ypOYyRwdSYFOSZfNadCJjnIetlZjMEdyYgalziiS-xJwBdLikJdWFOZO0h2gIc1FcDV1vJ0-EbAP9MofLGj9_L479xqq1z_AdJznOkqHyI_UuwvAb-tYFMMj51Ja-GlixjXhXg1Eh9xhyKBGY8g1whtHAUjtLAnKV50zlEllUXT7UdKNc9fwl9tVFF16wPPUWFn2PJb3Je7OFH3mVb2RSr4WeWjKZXRRNGMueuHAuXj1y_YCReu58oAg9FfAAAAAEqfXedAA")
-REQUEST_CHANNEL_ID = int(os.environ.get("REQUEST_CHANNEL_ID", "-1921112616"))
-REQUEST_CHANNEL_LINK = os.environ.get("REQUEST_CHANNEL_LINK", "https://t.me/+usTx4Me9_a83MGQ1")
+SESSION_STRING = os.environ.get("SESSION_STRING", "BQA1ENIAq3P5SiDYgXbCpBEnyfceLDb4ENYvrP1DB20RR3q5Z8Iv-bWuGZuJTNUQUmdqU5Pk1SvYViBI0fGsLZnSGesW52oWpzlKIUrMudFX2ZfgsnTD4dAHvyW8kqS7hBW2CilMCTN2jhoe9JVaYyHwPbMCsgtvFb4T_-kofr2Ju2uZtPY4RDjHHSlGhMtPRaAlVW0Mhx1eXox9N8y-845Q9SA-PVbgMQMMhIKQy5Ux4in2YizjIKnWLaObSw0qsfYmB07rUaW8_REAp5Zv-6HSUakgBetST92s5iCz3SXJ3b7eyVG-a0VKKsJ_MPsBbg9IDrkZdmx67zBXZ0dwKthYo2BfkQAAAABpspdLAA")
+REQUEST_CHANNEL_ID = int(os.environ.get("REQUEST_CHANNEL_ID", "-1001818783065"))
+REQUEST_CHANNEL_LINK = os.environ.get("REQUEST_CHANNEL_LINK", "https://t.me/+CpOSmVrewr5mMDRl")
 
 REQUEST_JOIN_MSG = "Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then click 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 and you will get the serial & movie File...😜\n\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 क्लिक करें और फिर 𝐓𝐫𝐲 𝐀𝐠𝐢𝐢𝐧 क्लिक करें और आपको सीरियल & मूवी फ़ाइल मिल जाएगी...😜"
 #start message
