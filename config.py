@@ -27,8 +27,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 SESSION_STRING = os.environ.get("SESSION_STRING", "BQGlNssAvRQqHf9bWoS-r4RAktXMrU6PjZg1zLPHTGy_fhfatqgCfSS2z8w7a3P55jQGpwskRk45sGmkhX3crmBPacI850ZkjowrO6v4WVDX1CPe87NX_YnMLOYBaBsvynQhJXqiferORxBvxt_pM1s_4-hYG3cwqIuUDuZgFjBCROSNJIo-8HxElXJ2zmg4crTg92UC16L5BDViXZlrHU0D0J5g601Q-JXvvujPJ7K8K2V4xaR2bkCXgIu_YSdqHXRvdHqlJoPtvaHVWTuLd-eFweKGg37uKo7uQ8LQJvtXcEDVtNQQv2KPoUeB93iTkFeZHns-qCfZ_CUKSc6V0ReE8_zZwAAAAAGBaU6tAQ")
 REQUEST_CHANNEL_ID = int(os.environ.get("REQUEST_CHANNEL_ID", "-1001702486980"))
-REQUEST_CHANNEL_LINK = os.environ.get("REQUEST_CHos.environ.get("REQUEST_CHANNEL_LINKANNEL_LINK", "https://t.me/+D2GFTThYIFsyNDRl")
-
+REQUEST_CHANNEL_LINK = os.environ.get("REQUEST_CHANNEL_LINK", "https://t.me/+D2GFTThYIFsyNDRl")
 REQUEST_JOIN_MSG = "Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then click 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 and you will get the serial & movie File...😜\n\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 क्लिक करें और फिर 𝐓𝐫𝐲 𝐀𝐠𝐢𝐢𝐧 क्लिक करें और आपको सीरियल & मूवी फ़ाइल मिल जाएगी...😜"
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
