@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6451520717:AAEZOgW1-2AUl38OJEfYj7D3KnHSpP-Vg0o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6814980516:AAHILFpChsoArxvmYP4T3shFhnmS2zPp3g4")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "27604683"))
@@ -12,7 +12,7 @@ APP_ID = int(os.environ.get("APP_ID", "27604683"))
 API_HASH = os.environ.get("API_HASH", "ed52a1d0803b2ed84c5cca7f20535aac")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001639151193"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001942937148"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1264280791"))
@@ -25,9 +25,9 @@ FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-SESSION_STRING = os.environ.get("SESSION_STRING", "BQGlNssAvRQqHf9bWoS-r4RAktXMrU6PjZg1zLPHTGy_fhfatqgCfSS2z8w7a3P55jQGpwskRk45sGmkhX3crmBPacI850ZkjowrO6v4WVDX1CPe87NX_YnMLOYBaBsvynQhJXqiferORxBvxt_pM1s_4-hYG3cwqIuUDuZgFjBCROSNJIo-8HxElXJ2zmg4crTg92UC16L5BDViXZlrHU0D0J5g601Q-JXvvujPJ7K8K2V4xaR2bkCXgIu_YSdqHXRvdHqlJoPtvaHVWTuLd-eFweKGg37uKo7uQ8LQJvtXcEDVtNQQv2KPoUeB93iTkFeZHns-qCfZ_CUKSc6V0ReE8_zZwAAAAAGBaU6tAQ")
-REQUEST_CHANNEL_ID = int(os.environ.get("REQUEST_CHANNEL_ID", "-1001702486980"))
-REQUEST_CHANNEL_LINK = os.environ.get("REQUEST_CHANNEL_LINK", "https://t.me/+D2GFTThYIFsyNDRl")
+SESSION_STRING = os.environ.get("SESSION_STRING", "BQC6kfsALt-OWnlhIpjBz17HLYFHWpiTBIZaFK6Ejfd11wiZ9RRfQamK-R9TgYqY4zp-eNhnkV-nMfnrwVWQIntEK2TBqSYPwdsr5Z2gS4j--vta9D3BuLzl4Ws3GF34ooSLb2TW-Kzivzw8UbSiEvJmmczFyfwSyPVrotG52WEBm_csqeltjc0IbGFAb9BXOsxy7Fb6BSwO1wKBgnj5fy595_Ffvp4rTyNmu2cX5Ks8KR7NUji9zUhKUBEFMV-qPgrEIPuar-TqO83E6zLx43fYPxNyiFP_HdIAA-qGR0zosRgDNiBJnA5SvQc7PSWQ5RB98-5zz3BeRtshipX240RPz6ok_wAAAAGWNFmkAQ")
+REQUEST_CHANNEL_ID = int(os.environ.get("REQUEST_CHANNEL_ID", "-1002011586689"))
+REQUEST_CHANNEL_LINK = os.environ.get("REQUEST_CHANNEL_LINK", "https://t.me/+PvVOda_p8TY1Mzdl")
 REQUEST_JOIN_MSG = "Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then click 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 and you will get the serial & movie File...😜\n\n𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 क्लिक करें और फिर 𝐓𝐫𝐲 𝐀𝐠𝐢𝐢𝐧 क्लिक करें और आपको सीरियल & मूवी फ़ाइल मिल जाएगी...😜"
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
